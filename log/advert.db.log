@@ -1,0 +1,3 @@
+2019/01/07 17:28:39 [xorm] [info]  2019/01/07 17:28:39.364418 [SQL] INSERT INTO `ad_zhanshi` (`id`,`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?, ?) []interface {}{"e2c49f9a-7f79-4fb7-9067-a4f50e216a5e", 2, 2, 1546853319, 0}
+2019/01/07 17:29:27 [xorm] [info]  2019/01/07 17:29:27.942459 [SQL] INSERT INTO `ad_zhanshi` (`id`,`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?, ?) []interface {}{"8fb6e551-41c3-438c-88d4-db4d5af8afba", 2, 2, 1546853367, 0}
+2019/01/07 17:30:23 [xorm] [info]  2019/01/07 17:30:23.106879 [SQL] INSERT INTO `ad_zhanshi` (`id`,`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?, ?) []interface {}{"d610a6e9-0b5a-4b4c-829d-aee56663fae9", 2, 2, 1546853423, 0}

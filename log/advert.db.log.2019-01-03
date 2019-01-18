@@ -1,0 +1,154 @@
+2019/01/03 09:17:56 [xorm] [info]  2019/01/03 09:17:56.956741 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 09:21:12 [xorm] [info]  2019/01/03 09:21:12.229338 [SQL] SELECT `id`, `username`, `password`, `avatar`, `introduction`, `create_time`, `update_time`, `status` FROM `ad_admin` WHERE (username = ?) LIMIT 1 []interface {}{"admin"}
+2019/01/03 14:15:56 [xorm] [info]  2019/01/03 14:15:56.307166 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 14:19:35 [xorm] [info]  2019/01/03 14:19:35.387070 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 14:22:39 [xorm] [info]  2019/01/03 14:22:39.209816 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 14:23:59 [xorm] [info]  2019/01/03 14:23:59.768301 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 14:25:27 [xorm] [info]  2019/01/03 14:25:27.651191 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 14:26:36 [xorm] [info]  2019/01/03 14:26:36.514963 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 14:27:31 [xorm] [info]  2019/01/03 14:27:31.723266 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 14:31:11 [xorm] [info]  2019/01/03 14:31:11.283884 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 14:34:12 [xorm] [info]  2019/01/03 14:34:12.246761 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 14:35:17 [xorm] [info]  2019/01/03 14:35:17.076326 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 14:35:34 [xorm] [info]  2019/01/03 14:35:34.713143 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 14:35:50 [xorm] [info]  2019/01/03 14:35:50.647513 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 15:02:36 [xorm] [info]  2019/01/03 15:02:36.949021 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 15:08:53 [xorm] [info]  2019/01/03 15:08:53.894159 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 15:12:38 [xorm] [info]  2019/01/03 15:12:38.031619 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 15:12:38 [xorm] [info]  2019/01/03 15:12:38.081485 [SQL] INSERT INTO `ad_zhanshi` (`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?) []interface {}{1, 1, 1546499558, 0}
+2019/01/03 15:14:17 [xorm] [info]  2019/01/03 15:14:17.837612 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 15:14:17 [xorm] [info]  2019/01/03 15:14:17.880496 [SQL] INSERT INTO `ad_zhanshi` (`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?) []interface {}{1, 1, 1546499657, 0}
+2019/01/03 15:14:29 [xorm] [info]  2019/01/03 15:14:29.808587 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 15:14:29 [xorm] [info]  2019/01/03 15:14:29.869428 [SQL] INSERT INTO `ad_zhanshi` (`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?) []interface {}{1, 1, 1546499669, 0}
+2019/01/03 15:14:41 [xorm] [info]  2019/01/03 15:14:41.101375 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 15:14:41 [xorm] [info]  2019/01/03 15:14:41.117332 [SQL] INSERT INTO `ad_zhanshi` (`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?) []interface {}{1, 1, 1546499681, 0}
+2019/01/03 15:20:39 [xorm] [info]  2019/01/03 15:20:39.812728 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 15:20:39 [xorm] [info]  2019/01/03 15:20:39.992248 [SQL] INSERT INTO `ad_zhanshi` (`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?) []interface {}{1, 1, 1546500039, 0}
+2019/01/03 15:20:57 [xorm] [info]  2019/01/03 15:20:57.637045 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 15:20:57 [xorm] [info]  2019/01/03 15:20:57.665968 [SQL] INSERT INTO `ad_zhanshi` (`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?) []interface {}{1, 1, 1546500057, 0}
+2019/01/03 15:45:46 [xorm] [info]  2019/01/03 15:45:46.181254 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 15:45:46 [xorm] [info]  2019/01/03 15:45:46.322877 [SQL] INSERT INTO `ad_zhanshi` (`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?) []interface {}{1, 1, 1546501546, 0}
+2019/01/03 15:46:22 [xorm] [info]  2019/01/03 15:46:22.541999 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 15:46:22 [xorm] [info]  2019/01/03 15:46:22.577901 [SQL] INSERT INTO `ad_zhanshi` (`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?) []interface {}{1, 1, 1546501582, 0}
+2019/01/03 15:56:19 [xorm] [info]  2019/01/03 15:56:19.259291 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 15:56:19 [xorm] [info]  2019/01/03 15:56:19.427839 [SQL] INSERT INTO `ad_zhanshi` (`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?) []interface {}{1, 1, 1546502179, 0}
+2019/01/03 15:57:58 [xorm] [info]  2019/01/03 15:57:58.608504 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 15:57:58 [xorm] [info]  2019/01/03 15:57:58.751125 [SQL] INSERT INTO `ad_zhanshi` (`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?) []interface {}{1, 1, 1546502278, 0}
+2019/01/03 16:02:22 [xorm] [info]  2019/01/03 16:02:22.633210 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 16:02:22 [xorm] [info]  2019/01/03 16:02:22.774831 [SQL] INSERT INTO `ad_zhanshi` (`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?) []interface {}{1, 1, 1546502542, 0}
+2019/01/03 16:19:16 [xorm] [info]  2019/01/03 16:19:16.229294 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 16:19:16 [xorm] [info]  2019/01/03 16:19:16.256221 [SQL] INSERT INTO `ad_zhanshi` (`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?) []interface {}{1, 1, 1546503556, 0}
+2019/01/03 16:24:21 [xorm] [info]  2019/01/03 16:24:21.372953 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 16:24:21 [xorm] [info]  2019/01/03 16:24:21.524548 [SQL] INSERT INTO `ad_zhanshi` (`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?) []interface {}{1, 1, 1546503861, 0}
+2019/01/03 16:49:07 [xorm] [info]  2019/01/03 16:49:07.056171 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 16:49:07 [xorm] [info]  2019/01/03 16:49:07.201781 [SQL] INSERT INTO `ad_zhanshi` (`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?) []interface {}{1, 1, 1546505347, 0}
+2019/01/03 16:51:30 [xorm] [info]  2019/01/03 16:51:30.822613 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 16:51:30 [xorm] [info]  2019/01/03 16:51:30.856524 [SQL] INSERT INTO `ad_zhanshi` (`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?) []interface {}{1, 1, 1546505490, 0}
+2019/01/03 17:00:57 [xorm] [info]  2019/01/03 17:00:57.802197 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 17:00:57 [xorm] [info]  2019/01/03 17:00:57.819151 [SQL] INSERT INTO `ad_zhanshi` (`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?) []interface {}{1, 1, 1546506057, 0}
+2019/01/03 17:01:17 [xorm] [info]  2019/01/03 17:01:17.497508 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 17:01:17 [xorm] [info]  2019/01/03 17:01:17.526431 [SQL] INSERT INTO `ad_zhanshi` (`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?) []interface {}{1, 1, 1546506077, 0}
+2019/01/03 17:15:59 [xorm] [info]  2019/01/03 17:15:59.376746 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 17:15:59 [xorm] [info]  2019/01/03 17:15:59.521359 [SQL] INSERT INTO `ad_zhanshi` (`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?) []interface {}{1, 1, 1546506959, 0}
+2019/01/03 17:16:58 [xorm] [info]  2019/01/03 17:16:58.448726 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 17:16:58 [xorm] [info]  2019/01/03 17:16:58.557435 [SQL] INSERT INTO `ad_zhanshi` (`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?) []interface {}{1, 1, 1546507018, 0}
+2019/01/03 17:20:32 [xorm] [info]  2019/01/03 17:20:32.041329 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 17:20:32 [xorm] [info]  2019/01/03 17:20:32.142059 [SQL] INSERT INTO `ad_zhanshi` (`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?) []interface {}{1, 1, 1546507232, 0}
+2019/01/03 17:29:27 [xorm] [info]  2019/01/03 17:29:27.985558 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 17:29:28 [xorm] [info]  2019/01/03 17:29:28.126182 [SQL] INSERT INTO `ad_zhanshi` (`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?) []interface {}{1, 1, 1546507768, 0}
+2019/01/03 17:29:39 [xorm] [info]  2019/01/03 17:29:39.165648 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 17:29:39 [xorm] [info]  2019/01/03 17:29:39.192577 [SQL] INSERT INTO `ad_zhanshi` (`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?) []interface {}{1, 1, 1546507779, 0}
+2019/01/03 17:30:24 [xorm] [info]  2019/01/03 17:30:24.700831 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 17:30:24 [xorm] [info]  2019/01/03 17:30:24.842451 [SQL] INSERT INTO `ad_zhanshi` (`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?) []interface {}{1, 1, 1546507824, 0}
+2019/01/03 17:30:36 [xorm] [info]  2019/01/03 17:30:36.711699 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 17:30:36 [xorm] [info]  2019/01/03 17:30:36.746605 [SQL] INSERT INTO `ad_zhanshi` (`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?) []interface {}{1, 1, 1546507836, 0}
+2019/01/03 17:30:43 [xorm] [info]  2019/01/03 17:30:43.522477 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 17:30:43 [xorm] [info]  2019/01/03 17:30:43.550406 [SQL] INSERT INTO `ad_zhanshi` (`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?) []interface {}{1, 1, 1546507843, 0}
+2019/01/03 17:32:02 [xorm] [info]  2019/01/03 17:32:02.555044 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 17:32:02 [xorm] [info]  2019/01/03 17:32:02.695668 [SQL] INSERT INTO `ad_zhanshi` (`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?) []interface {}{1, 1, 1546507922, 0}
+2019/01/03 17:32:13 [xorm] [info]  2019/01/03 17:32:13.222506 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 17:32:13 [xorm] [info]  2019/01/03 17:32:13.242453 [SQL] INSERT INTO `ad_zhanshi` (`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?) []interface {}{1, 1, 1546507933, 0}
+2019/01/03 17:33:09 [xorm] [info]  2019/01/03 17:33:09.868962 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 17:33:10 [xorm] [info]  2019/01/03 17:33:10.020557 [SQL] INSERT INTO `ad_zhanshi` (`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?) []interface {}{1, 1, 1546507990, 0}
+2019/01/03 17:33:22 [xorm] [info]  2019/01/03 17:33:22.092261 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 17:33:22 [xorm] [info]  2019/01/03 17:33:22.115200 [SQL] INSERT INTO `ad_zhanshi` (`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?) []interface {}{1, 1, 1546508002, 0}
+2019/01/03 17:33:28 [xorm] [info]  2019/01/03 17:33:28.081239 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 17:33:28 [xorm] [info]  2019/01/03 17:33:28.223859 [SQL] INSERT INTO `ad_zhanshi` (`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?) []interface {}{1, 1, 1546508008, 0}
+2019/01/03 17:34:35 [xorm] [info]  2019/01/03 17:34:35.440038 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 17:34:35 [xorm] [info]  2019/01/03 17:34:35.592629 [SQL] INSERT INTO `ad_zhanshi` (`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?) []interface {}{1, 1, 1546508075, 0}
+2019/01/03 17:34:59 [xorm] [info]  2019/01/03 17:34:59.080791 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 17:34:59 [xorm] [info]  2019/01/03 17:34:59.246348 [SQL] INSERT INTO `ad_zhanshi` (`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?) []interface {}{1, 1, 1546508099, 0}
+2019/01/03 17:40:51 [xorm] [info]  2019/01/03 17:40:51.713067 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 17:40:51 [xorm] [info]  2019/01/03 17:40:51.989325 [SQL] INSERT INTO `ad_zhanshi` (`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?) []interface {}{2, 1, 1546508451, 0}
+2019/01/03 17:46:10 [xorm] [info]  2019/01/03 17:46:10.622409 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 17:46:10 [xorm] [info]  2019/01/03 17:46:10.818882 [SQL] INSERT INTO `ad_zhanshi` (`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?) []interface {}{2, 1, 1546508770, 0}
+2019/01/03 18:17:27 [xorm] [info]  2019/01/03 18:17:27.492041 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 18:17:27 [xorm] [info]  2019/01/03 18:17:27.643635 [SQL] INSERT INTO `ad_zhanshi` (`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?) []interface {}{2, 1, 1546510647, 0}
+2019/01/03 18:21:00 [xorm] [info]  2019/01/03 18:21:00.963502 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 18:21:01 [xorm] [info]  2019/01/03 18:21:01.210840 [SQL] INSERT INTO `ad_zhanshi` (`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?) []interface {}{2, 1, 1546510861, 0}
+2019/01/03 18:21:02 [xorm] [info]  2019/01/03 18:21:02.687890 [SQL] UPDATE `ad_zhanshi` SET `is_click` = ? WHERE `id`=? []interface {}{1, ""}
+2019/01/03 18:51:29 [xorm] [info]  2019/01/03 18:51:29.638855 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 18:51:29 [xorm] [info]  2019/01/03 18:51:29.862258 [SQL] INSERT INTO `ad_zhanshi` (`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?) []interface {}{2, 1, 1546512689, 0}
+2019/01/03 19:02:14 [xorm] [info]  2019/01/03 19:02:14.664585 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 19:02:20 [xorm] [info]  2019/01/03 19:02:20.410214 [SQL] INSERT INTO `ad_zhanshi` (`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?) []interface {}{2, 1, 1546513340, 0}
+2019/01/03 19:02:39 [xorm] [info]  2019/01/03 19:02:39.248815 [SQL] UPDATE `ad_zhanshi` SET `is_click` = ? WHERE `id`=? []interface {}{1, "2"}
+2019/01/03 19:07:31 [xorm] [info]  2019/01/03 19:07:31.161871 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 19:07:31 [xorm] [info]  2019/01/03 19:07:31.313468 [SQL] INSERT INTO `ad_zhanshi` (`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?) []interface {}{2, 1, 1546513651, 0}
+2019/01/03 19:07:35 [xorm] [info]  2019/01/03 19:07:35.077396 [SQL] UPDATE `ad_zhanshi` SET `is_click` = ? WHERE `id`=? []interface {}{1, "2"}
+2019/01/03 19:07:45 [xorm] [info]  2019/01/03 19:07:45.088613 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 19:07:45 [xorm] [info]  2019/01/03 19:07:45.110555 [SQL] INSERT INTO `ad_zhanshi` (`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?) []interface {}{2, 1, 1546513665, 0}
+2019/01/03 19:07:45 [xorm] [info]  2019/01/03 19:07:45.844591 [SQL] UPDATE `ad_zhanshi` SET `is_click` = ? WHERE `id`=? []interface {}{1, "2"}
+2019/01/03 19:11:35 [xorm] [info]  2019/01/03 19:11:35.514189 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 19:11:35 [xorm] [info]  2019/01/03 19:11:35.546104 [SQL] INSERT INTO `ad_zhanshi` (`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?) []interface {}{2, 1, 1546513895, 0}
+2019/01/03 19:11:43 [xorm] [info]  2019/01/03 19:11:43.614517 [SQL] UPDATE `ad_zhanshi` SET `is_click` = ? WHERE `id`=? []interface {}{1, "2"}
+2019/01/03 19:13:23 [xorm] [info]  2019/01/03 19:13:23.880281 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 19:13:23 [xorm] [info]  2019/01/03 19:13:23.910200 [SQL] INSERT INTO `ad_zhanshi` (`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?) []interface {}{2, 1, 1546514003, 0}
+2019/01/03 19:13:32 [xorm] [info]  2019/01/03 19:13:32.980934 [SQL] UPDATE `ad_zhanshi` SET `is_click` = ? WHERE `id`=? []interface {}{1, "2"}
+2019/01/03 19:15:33 [xorm] [info]  2019/01/03 19:15:33.218268 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 19:15:33 [xorm] [info]  2019/01/03 19:15:33.249186 [SQL] INSERT INTO `ad_zhanshi` (`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?) []interface {}{2, 1, 1546514133, 0}
+2019/01/03 19:15:46 [xorm] [info]  2019/01/03 19:15:46.709176 [SQL] UPDATE `ad_zhanshi` SET `is_click` = ? WHERE (id=?) []interface {}{1, "2"}
+2019/01/03 19:16:49 [xorm] [info]  2019/01/03 19:16:49.628850 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 19:16:49 [xorm] [info]  2019/01/03 19:16:49.659766 [SQL] INSERT INTO `ad_zhanshi` (`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?) []interface {}{2, 1, 1546514209, 0}
+2019/01/03 19:16:55 [xorm] [info]  2019/01/03 19:16:55.317630 [SQL] UPDATE `ad_zhanshi` SET `is_click` = ? WHERE (id=?) []interface {}{1, "2"}
+2019/01/03 19:20:23 [xorm] [info]  2019/01/03 19:20:23.699200 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 19:20:23 [xorm] [info]  2019/01/03 19:20:23.724132 [SQL] INSERT INTO `ad_zhanshi` (`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?) []interface {}{2, 1, 1546514423, 0}
+2019/01/03 19:20:25 [xorm] [info]  2019/01/03 19:20:25.068537 [SQL] UPDATE `ad_zhanshi` SET `is_click` = ? WHERE `id`=? []interface {}{1, "2"}
+2019/01/03 19:20:34 [xorm] [info]  2019/01/03 19:20:34.983012 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 19:20:35 [xorm] [info]  2019/01/03 19:20:35.018917 [SQL] INSERT INTO `ad_zhanshi` (`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?) []interface {}{2, 1, 1546514435, 0}
+2019/01/03 19:20:35 [xorm] [info]  2019/01/03 19:20:35.801821 [SQL] UPDATE `ad_zhanshi` SET `is_click` = ? WHERE `id`=? []interface {}{1, "2"}
+2019/01/03 19:24:07 [xorm] [info]  2019/01/03 19:24:07.155906 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 19:24:07 [xorm] [info]  2019/01/03 19:24:07.180839 [SQL] INSERT INTO `ad_zhanshi` (`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?) []interface {}{2, 1, 1546514647, 0}
+2019/01/03 19:24:08 [xorm] [info]  2019/01/03 19:24:08.331760 [SQL] UPDATE `ad_zhanshi` SET `is_click` = ? WHERE `id`=? []interface {}{1, "2"}
+2019/01/03 19:55:20 [xorm] [info]  2019/01/03 19:55:20.620160 [SQL] SELECT * FROM `ad_banner` LIMIT 1
+2019/01/03 19:55:45 [xorm] [info]  2019/01/03 19:55:45.558443 [SQL] SELECT * FROM `ad_banner` LIMIT 1
+2019/01/03 19:56:16 [xorm] [info]  2019/01/03 19:56:16.917549 [SQL] SELECT * FROM `ad_banner` LIMIT 1
+2019/01/03 19:56:41 [xorm] [info]  2019/01/03 19:56:41.036026 [SQL] SELECT * FROM `ad_banner` LIMIT 1
+2019/01/03 19:57:08 [xorm] [info]  2019/01/03 19:57:08.161460 [SQL] SELECT * FROM `ad_banner` LIMIT 1
+2019/01/03 20:01:41 [xorm] [info]  2019/01/03 20:01:41.824339 [SQL] SELECT * FROM `ad_banner` LIMIT 1
+2019/01/03 20:04:53 [xorm] [info]  2019/01/03 20:04:53.209333 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 20:04:53 [xorm] [info]  2019/01/03 20:04:53.226288 [SQL] INSERT INTO `ad_zhanshi` (`id`,`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?, ?) []interface {}{"8c846a91-b317-4aed-83cc-0d40b967118f", 2, 1, 1546517093, 0}
+2019/01/03 20:04:54 [xorm] [info]  2019/01/03 20:04:54.312382 [SQL] UPDATE `ad_zhanshi` SET `is_click` = ? WHERE `id`=? []interface {}{1, "2"}
+2019/01/03 20:13:23 [xorm] [info]  2019/01/03 20:13:23.598415 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 20:13:32 [xorm] [info]  2019/01/03 20:13:32.501597 [SQL] INSERT INTO `ad_zhanshi` (`id`,`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?, ?) []interface {}{"f4a741f3-1439-4091-a6a0-d4f96e4d5d81", 2, 1, 1546517612, 0}
+2019/01/03 20:15:50 [xorm] [info]  2019/01/03 20:15:50.240110 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 20:15:53 [xorm] [info]  2019/01/03 20:15:53.407636 [SQL] INSERT INTO `ad_zhanshi` (`id`,`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?, ?) []interface {}{"cf44d269-63d1-4d75-9bef-3cba3de23f03", 2, 1, 1546517753, 0}
+2019/01/03 20:15:54 [xorm] [info]  2019/01/03 20:15:54.396989 [SQL] UPDATE `ad_zhanshi` SET `is_click` = ? WHERE `id`=? []interface {}{1, "cf44d269-63d1-4d75-9bef-3cba3de23f03"}
+2019/01/03 20:16:09 [xorm] [info]  2019/01/03 20:16:09.143064 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 20:16:09 [xorm] [info]  2019/01/03 20:16:09.173981 [SQL] INSERT INTO `ad_zhanshi` (`id`,`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?, ?) []interface {}{"ca61c15f-fd48-4750-bd99-ca7d50c90b35", 2, 1, 1546517769, 0}
+2019/01/03 20:16:11 [xorm] [info]  2019/01/03 20:16:11.957535 [SQL] UPDATE `ad_zhanshi` SET `is_click` = ? WHERE `id`=? []interface {}{1, "ca61c15f-fd48-4750-bd99-ca7d50c90b35"}
+2019/01/03 20:26:54 [xorm] [info]  2019/01/03 20:26:54.848635 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 20:26:54 [xorm] [info]  2019/01/03 20:26:54.872570 [SQL] INSERT INTO `ad_zhanshi` (`id`,`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?, ?) []interface {}{"3026d60a-ca70-4804-8016-15534a0cd2f6", 2, 1, 1546518414, 0}
+2019/01/03 20:26:55 [xorm] [info]  2019/01/03 20:26:55.723294 [SQL] UPDATE `ad_zhanshi` SET `is_click` = ? WHERE `id`=? []interface {}{1, "3026d60a-ca70-4804-8016-15534a0cd2f6"}
+2019/01/03 20:29:49 [xorm] [info]  2019/01/03 20:29:49.011232 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 20:29:49 [xorm] [info]  2019/01/03 20:29:49.156843 [SQL] INSERT INTO `ad_zhanshi` (`id`,`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?, ?) []interface {}{"277cc4cf-7cf6-4dc7-bb51-818a8cfe7894", 2, 1, 1546518589, 0}
+2019/01/03 20:29:50 [xorm] [info]  2019/01/03 20:29:50.474318 [SQL] UPDATE `ad_zhanshi` SET `is_click` = ? WHERE `id`=? []interface {}{1, "277cc4cf-7cf6-4dc7-bb51-818a8cfe7894"}
+2019/01/03 20:33:16 [xorm] [info]  2019/01/03 20:33:16.592897 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 20:33:16 [xorm] [info]  2019/01/03 20:33:16.738508 [SQL] INSERT INTO `ad_zhanshi` (`id`,`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?, ?) []interface {}{"7d8c7c86-8f72-4b3a-a945-38d1ec49315f", 2, 1, 1546518796, 0}
+2019/01/03 20:33:18 [xorm] [info]  2019/01/03 20:33:18.055983 [SQL] UPDATE `ad_zhanshi` SET `is_click` = ? WHERE `id`=? []interface {}{1, "7d8c7c86-8f72-4b3a-a945-38d1ec49315f"}
+2019/01/03 20:33:34 [xorm] [info]  2019/01/03 20:33:34.265618 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 20:33:34 [xorm] [info]  2019/01/03 20:33:34.284568 [SQL] INSERT INTO `ad_zhanshi` (`id`,`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?, ?) []interface {}{"41de6fa5-ae17-491d-a812-1754e17b4151", 2, 1, 1546518814, 0}
+2019/01/03 20:33:47 [xorm] [info]  2019/01/03 20:33:47.658787 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 20:33:47 [xorm] [info]  2019/01/03 20:33:47.686713 [SQL] INSERT INTO `ad_zhanshi` (`id`,`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?, ?) []interface {}{"bf2ccfc5-8716-453f-b055-983f5f9654ba", 2, 1, 1546518827, 0}
+2019/01/03 20:34:07 [xorm] [info]  2019/01/03 20:34:07.147653 [SQL] SELECT `id`, `title`, `url`, `img_url`, `status`, `create_time`, `update_time` FROM `ad_banner` LIMIT 1
+2019/01/03 20:34:07 [xorm] [info]  2019/01/03 20:34:07.462808 [SQL] INSERT INTO `ad_zhanshi` (`id`,`ad_id`,`device`,`create_time`,`is_click`) VALUES (?, ?, ?, ?, ?) []interface {}{"5f0a7fd1-3308-4a57-8046-54c35f89995a", 2, 1, 1546518847, 0}
+2019/01/03 20:34:08 [xorm] [info]  2019/01/03 20:34:08.728421 [SQL] UPDATE `ad_zhanshi` SET `is_click` = ? WHERE `id`=? []interface {}{1, "5f0a7fd1-3308-4a57-8046-54c35f89995a"}
