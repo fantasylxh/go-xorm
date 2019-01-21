@@ -11,9 +11,9 @@ import (
 
 func Share(c echo.Context) error {
 	const APPKEY string = "xaE5zGZOlwTVGmAMHAmbxt0lPOBcs9SGSOwsFKIF"
-	uid := c.Request().PostFormValue("uid")       // 用户id
+	uid := c.Request().PostFormValue("uid")               // 用户id
 	share_code := c.Request().PostFormValue("share_code") // 邀请码
-	sign := c.Request().PostFormValue("sign")     // 签名字符串
+	sign := c.Request().PostFormValue("sign")             // 签名字符串
 	// 签名验证
 	signstr := uid + share_code + APPKEY // 签名字符串
 	//_ = signstr
@@ -29,7 +29,6 @@ func Share(c echo.Context) error {
 		return c.JSON(http.StatusOK, utils.AjaxError("无效的签名"+signstr)) // todo remove signstr
 	}
 
-	res := new(tyt.User).UpdateVipEndTime(uid, share_code)
-
-	return c.JSON(http.StatusOK, utils.AjaxSuccess(res))
+	new(tyt.User).UpdateVipEndTime(uid, share_code)
+	return c.JSON(http.StatusOK, utils.AjaxSuccess("success"))
 }
