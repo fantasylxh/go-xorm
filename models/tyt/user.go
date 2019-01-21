@@ -67,13 +67,16 @@ func (t *User) UpdateVipEndTime(id string, share_code string) bool {
 	datetime := user.VipEndTime.Add(m)
 
 	err := engine.Begin()
-	_, err = engine.Table(t.TableName()).ID(id).Update(&User{VipEndTime:datetime})
+	_, err = engine.Table(t.TableName()).ID(id).Update(&User{VipEndTime: datetime})
 	if err != nil {
 		engine.Rollback()
 		return false
 	}
-	global.TytDB().Table(t.TableName()).Where("share_code=? ", share_code).Get(user)
-	_, err = engine.Where("share_code = ?", share_code).Update(&User{VipEndTime:datetime})
+
+	user2 := new(User)
+	global.TytDB().Table(t.TableName()).Where("share_code=? ", share_code).Get(user2)
+	datetime2 := user2.VipEndTime.Add(m)
+	_, err = engine.Where("share_code = ?", share_code).Update(&User{VipEndTime: datetime2})
 	if err != nil {
 		engine.Rollback()
 		return false
