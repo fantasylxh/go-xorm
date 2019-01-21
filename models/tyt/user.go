@@ -43,17 +43,46 @@ type User struct {
 	Phonenum            string    `json:"phonenum" xorm:"comment('设备唯一标识') VARCHAR(100)"`
 }
 
-func (c User)TableName() string  {
+func (c User) TableName() string {
 	return "user"
 }
 
-func (c *User) Login(username string,password string) ( user *User)  {
-	ok,err := global.TytDB().Where("username=? and password=?",username,password).Get(user)
-	if ok{
+func (c *User) Login(username string, password string) (user *User) {
+	ok, err := global.TytDB().Where("username=? and password=?", username, password).Get(user)
+	if ok {
 		return user
 	}
 	if err != nil {
 
 	}
 	return nil
+}
+
+func (t *User) UpdateVipEndTime(id string, share_code string) bool {
+	engine := global.TytDB()
+	user := new(User)
+	global.TytDB().Table(t.TableName()).Where("id=? ", id).Get(user)
+
+	m, _ := time.ParseDuration("15m")
+	datetime := user.VipEndTime.Add(m)
+
+	err := engine.Begin()
+	_, err = engine.Table(t.TableName()).ID(id).Update(&User{VipEndTime:datetime})
+	if err != nil {
+		engine.Rollback()
+		return false
+	}
+	global.TytDB().Table(t.TableName()).Where("share_code=? ", share_code).Get(user)
+	_, err = engine.Where("share_code = ?", share_code).Update(&User{VipEndTime:datetime})
+	if err != nil {
+		engine.Rollback()
+		return false
+	}
+
+	err = engine.Commit()
+	if err != nil {
+		return false
+	}
+	return true
+
 }
